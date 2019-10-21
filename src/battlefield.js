@@ -38,7 +38,7 @@ class Battlefield extends React.Component {
     let c = this.ctx;
     c.fillStyle = '#00f';
     c.fillRect(0,0,width,height);
-    c.fillStyle = '#0f0';
+    c.fillStyle = '#fff';
     c.beginPath();
     c.moveTo(0, height);
     let last = null;
